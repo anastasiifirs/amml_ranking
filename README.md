@@ -1,10 +1,10 @@
-# AMML ranking 2026 — решение и журнал экспериментов
+# AMML ranking 2026
 
 Задача: ранжирование русскоязычных фрагментов по запросу, метрика — средний по запросам NDCG@10.
 
 **Итог:** OOF NDCG@10 0.9659 (5 фолдов), Public 0.9615 — сабмит 06.
 
-**Запуск:** `solution.ipynb` в Kaggle Notebook (Linux, Python 3.13, GPU T4 x2, интернет включён для скачивания весов с HuggingFace, подключены данные соревнования), Run All. Версии пакетов — `requirements.txt`. Время ≈ 9 ч 45 мин (лимит Kaggle — 12 ч). Результат — `submission.csv`.
+**Запуск:** `solution.ipynb` в Kaggle Notebook (Linux, Python 3.13, GPU T4 x2, интернет включён для скачивания весов с HuggingFace, подключены данные соревнования). Версии пакетов — `requirements.txt`. Время ≈ 9 ч 45 мин (лимит Kaggle — 12 ч). Результат — `submission.csv`.
 
 ## Итоговая схема
 
